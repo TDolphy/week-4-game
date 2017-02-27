@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang='en-us'>
+
+  <head>
+
+    <meta charset='UTF-8'>
+    <title>This is the Crystal Game!!</title>
+
+    
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+ <body>
+
+    <div class='container'>
+		
+		<div class='jumbotron'>
+        <div class='container'>
+          <h1>Coding Bootcamp - Gem Game</h1>
+          <h2>Rules of the Gem Game</h2>
+          <p>The four crystals bellow are magic!
+          <br>Click on each crystal to add those points to your score. You win if you get your score to match the goal score. You lose if you go over the goal score!
+          <br>Try it out!
+          </p>
+        </div>
+      </div>
+		<!-- Create container for random number user needs to reach and wins/losses in same row. -->
+		<div class="container">
+
+        <div class="col-md-3"  id="goalScore">
+        </div>
+        <div class="col-md-3" id="wins">
+        </div>
+        <div class="col-md-3" id="losses">
+        </div>
+        <div class="col-md-3" id="currentScore">
+        </div>
+      
+    </div>
+		<!-- Create row of 4 containers for the 4 gems to be used, make each list item a crystal image -->
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-3" id="crystal1">
+          <div class="thumbnail">
+            <img src="https://s-media-cache-ak0.pinimg.com/564x/6b/d5/bd/6bd5bd835bae2c38c21b150d45d45abf.jpg" alt="Crystal 1">
+          </div>
+        </div>
+        <div class="col-md-3" id="crystal2">
+          <div class="thumbnail">
+            <img src="https://s-media-cache-ak0.pinimg.com/564x/1c/cb/a4/1ccba4f6cb77f48de117cc442d7a48ba.jpg" alt="Crystal 2">
+          </div>
+        </div>
+        <div class="col-md-3" id="crystal3">
+          <div class="thumbnail">
+            <img src="https://s-media-cache-ak0.pinimg.com/564x/b0/7b/4c/b07b4c546f86d284d67565cc097d885c.jpg" alt="Crystal 3">
+          </div>
+        </div>
+        <div class="col-md-3" id="crystal4">
+          <div class="thumbnail">
+            <img src="https://s-media-cache-ak0.pinimg.com/564x/d5/83/46/d58346d894f0acfcfeb550e6ad2eaf73.jpg" alt="Crystal 4">
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+   <script src='assets/javascript/game.js'></script>
+
+ </body>
+
+</html>

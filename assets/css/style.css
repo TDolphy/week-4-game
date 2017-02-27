@@ -1,0 +1,31 @@
+#goalScore {
+	height: 100px;
+	line-height: 50px;
+	background-color: steelblue;
+	text-align: center;
+	font-size: 2em;
+}
+
+#wins {
+	height: 100px;
+	line-height: 50px;
+	background-color: paleturquoise;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#losses {
+	height: 100px;
+	line-height: 50px;
+	background-color: royalblue;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#currentScore {
+	height: 100px;
+	line-height: 50px;
+	background-color: palevioletred;
+	text-align: center;
+	font-size: 2em;
+}
